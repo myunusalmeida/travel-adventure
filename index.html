@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel 1 | Almeida Space</title>
+
+    <!-- BOOTSTRAP PLUGIN -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/bootstrap.min.css">
+
+    <!-- SWIPER JS PLUGIN -->
+    <link rel="stylesheet" href="assets/plugins/swiper/swiper-bundle.min.css">
+
+    <!-- BOX ICONS -->
+    <!-- <link rel="stylesheet" href="assets/plugins/boxicons/boxicons.min.css"> -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- STYLE SENDIRI -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/logo.png" alt="Adventure Logo"> Adventure
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link mx-1 active" aria-current="page" href=".">Home</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link mx-1" href="#">Agents</a></li>
+                        <li class="nav-item"><a class="nav-link mx-1" href="#">Cities</a></li>
+                        <li class="nav-item"><a class="nav-link mx-1" href="#">Packages</a></li>
+                        <li class="nav-item"><a class="nav-link mx-1" href="#">About</a></li>
+                    </ul>
+                    <ul class="ml-auto social-media">
+                        <li>
+                            <a href="#" class="btn-social-media">
+                                <i class='bx bxl-facebook'></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social-media">
+                                <i class='bx bxl-instagram'></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social-media">
+                                <i class='bx bxl-airbnb'></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social-media">
+                                <i class='bx bxl-pinterest-alt'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner-section" id="banner">
+            <div class="container">
+                <div class="row content">
+                    <div class="col-lg-5 col-md-6">
+                        <div class="banner-title-section">
+                            <p class="subtitle">Travel Website</p>
+                            <h2 class="title">never stop exploring the world.</h2>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sit, tenetur labore tempore
+                                repellat reprehenderit iure atque provident corporis nam corrupti
+                            </p>
+                            <a href="." class="btn btn-banner">learn more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6">
+                        <div class="swiper-container banner-swiper">
+                            <div class="swiper-wrapper">
+                                <a class="swiper-slide" onclick="ChangeBg('url(assets/img/img1-mini.jpeg)')"
+                                    style="background-image: url(assets/img/img1-mini.jpeg);">
+                                    <h3 class="title">beach</h3>
+                                </a>
+                                <a class="swiper-slide" onclick="ChangeBg('url(assets/img/img2-mini.jpeg)')"
+                                    style="background-image: url(assets/img/img2-mini.jpeg);">
+                                    <h3 class="title">hotels</h3>
+                                </a>
+                                <a class="swiper-slide" onclick="ChangeBg('url(assets/img/img3-mini.jpeg)')"
+                                    style="background-image: url(assets/img/img3-mini.jpeg);">
+                                    <h3 class="title">beach</h3>
+                                </a>
+                                <a class="swiper-slide" onclick="ChangeBg('url(assets/img/img4-mini.jpeg)')"
+                                    style="background-image: url(assets/img/img4-mini.jpeg);">
+                                    <h3 class="title">hotels</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="recommended-adventure" id="recommended-adventure">
+            <div class="container">
+                <h3 class="title-section">Recommended Adventure.</h3>
+
+                <div class="swiper-container recommended-swiper mt-5">
+                    <div class="swiper-wrapper">
+                        <a href="https://google.com" class="swiper-slide"
+                            style="background-image: url('assets/img/img-bromo.jpeg');">
+                            <div class="content">
+                                <h3 class="title">Bromo Mountain</h3>
+                                <p class="location">Malang, Indonesia</p>
+                            </div>
+                        </a>
+                        <a href="#" class="swiper-slide"
+                            style="background-image: url('assets/img/img-nusa-penida.jpeg');">
+                            <div class="content">
+                                <h3 class="title">Nusa Penida</h3>
+                                <p class="location">Bali, Indonesia</p>
+                            </div>
+                        </a>
+                        <a href="#" class="swiper-slide"
+                            style="background-image: url('assets/img/img-raja-ampat.jpeg');">
+                            <div class="content">
+                                <h3 class="title">Raja Ampat</h3>
+                                <p class="location">West Papua, Indonesia</p>
+                            </div>
+                        </a>
+                        <a href="#" class="swiper-slide"
+                            style="background-image: url('assets/img/img-singapore.jpeg');">
+                            <div class="content">
+                                <h3 class="title">Singapore</h3>
+                                <p class="location">Singapore, Singapore</p>
+                            </div>
+                        </a>
+                        <a href="#" class="swiper-slide" style="background-image: url('assets/img/img-sydney.jpeg');">
+                            <div class="content">
+                                <h3 class="title">Sydney</h3>
+                                <p class="location">Sydney, Australia</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="experience" id="experience">
+            <div class="container">
+                <div class="row flex-sm-row-reverse">
+                    <div class="col-md-6">
+                        <h3 class="title-section mt-5">With Our Experience We Will Serve You.</h3>
+                        <p class="description-section">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia molestias quisquam praesentium
+                            ipsa
+                            magnam vero eius expedita nostrum animi modi.
+                        </p>
+                        <a href="#" class="btn btn-experience">Learn More</a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-6 mt-3">
+                                <div class="card-experience">
+                                    <h4 class="number">10</h4>
+                                    <p class="description">Years of experience</p>
+                                </div>
+                            </div>
+                            <div class="col-6 mt-5">
+                                <div class="card-experience">
+                                    <h4 class="number">30</h4>
+                                    <p class="description">Countries Visited</p>
+                                </div>
+                            </div>
+                            <div class="col-6 mt-3">
+                                <div class="card-experience">
+                                    <h4 class="number">200</h4>
+                                    <p class="description">Trip Organized</p>
+                                </div>
+                            </div>
+                            <div class="col-6 mt-5">
+                                <div class="card-experience">
+                                    <h4 class="number">1200</h4>
+                                    <p class="description">Happy Travellers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h3 class="title-section mt-5">What Travellers Say About Us.</h3>
+                        <p class="description-section">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit quia molestias quisquam.
+                        </p>
+                        <div class="card-testimonial">
+                            <p class="testimonial-text">"Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Repudiandae, mollitia deleniti?
+                                Neque doloribus, expedita reprehenderit voluptates, a quos magnam iste dolore."</h4>
+                                <div class="people">
+                                    <img src="assets/img/testimonial-1.jpeg">
+                                    <p class="name">George Button</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-testimonial ml-5">
+                            <p class="testimonial-text">"Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Repudiandae, mollitia deleniti?
+                                Neque doloribus, expedita reprehenderit voluptates, a quos magnam iste dolore."</h4>
+                                <div class="people">
+                                    <img src="assets/img/testimonial-2.jpeg">
+                                    <p class="name">Ella Mola</p>
+                                </div>
+                        </div>
+                        <div class="card-testimonial ml-5">
+                            <p class="testimonial-text">"Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Repudiandae, mollitia deleniti?
+                                Neque doloribus, expedita reprehenderit voluptates, a quos magnam iste dolore."</h4>
+                                <div class="people">
+                                    <img src="assets/img/testimonial-3.jpeg">
+                                    <p class="name">Jose Erick</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="subscribe" id="subscribe">
+            <div class="container">
+                <div class="card-subscribe">
+                    <h2 class="title">Subscribe to get the latest new about us</h2>
+                    <p class="description">We recommended you to subscribe to our newspaper, enter your email below to
+                        get daily update about us.</p>
+
+                    <form action="#" method="post">
+                        <div class="form-group form-row align-items-center">
+                            <div class="col-md-8">
+                                <input type="email" class="form-control" placeholder="Enter your email address">
+                            </div>
+                            <div class="col-md-4">
+                                <button class="btn btn-subscribe" type="submit">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="footer-text">
+                        <strong>Adventure</strong> 2020, All rights reserved.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="footer-icons">
+                        <li>
+                            <a href="#" class="icon"><i class='bx bxl-facebook'></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon"><i class='bx bxl-instagram'></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon"><i class='bx bxl-airbnb'></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon"><i class='bx bxl-pinterest-alt'></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JQUERY PLUGIN -->
+    <!-- <script src="assets/plugins/jquery/jquery-3.4.1.min.js"></script> -->
+
+    <!-- BOOTSTRAP JS PLUGIN -->
+    <!-- <script src="assets/plugins/bootstrap/bootstrap.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- SWIPER JS PLUGIN -->
+    <script src="assets/plugins/swiper/swiper-bundle.min.js"></script>
+
+    <!-- SCRIPT SENDIRI -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        function ChangeBg(image) {
+            document.getElementById('banner').style.backgroundImage = image;
+        }
+    </script>
+</body>
+
+</html>
