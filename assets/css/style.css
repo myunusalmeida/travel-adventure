@@ -526,6 +526,7 @@ footer {
 
 footer .footer-text {
   color: #636363;
+  padding: 10px;
 }
 
 @media (max-width: 767px) {
